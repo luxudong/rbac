@@ -1,0 +1,1992 @@
+[ 2014-08-19T15:31:03+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.052803s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.085619s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.085947s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038629s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038887s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.058622s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.058936s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.049726s ]
+INFO: [ app_end ] --END-- [ RunTime:0.050028s ]
+
+[ 2014-08-19T15:50:31+08:00 ] ERR: (ThinkException) Access denied for user 'root'@'localhost' (using password: YES)
+[ 2014-08-19T17:14:06+08:00 ] ERR: (ThinkException) Unknown database 'examples'
+[ 2014-08-19T17:14:06+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-19T17:15:30+08:00 ] ERR: (ThinkException) 非法操作:Images
+[ 2014-08-19T17:15:50+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-19T17:15:51+08:00 ] 127.0.0.1 /Index/index
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.004085s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000742s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.004947s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028834s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.033883s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.034355s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.034855s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.035193s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001996s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.036038s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000690s ]
+
+[ 2014-08-19T17:15:51+08:00 ] 127.0.0.1 /Public/top
+SQL: SHOW COLUMNS FROM `think_group` [ RunTime:0.009245s ]
+SQL: SELECT `id`,`title` FROM `think_group` WHERE status=1  [ RunTime:0.000733s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.027761s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000820s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.028736s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022122s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.050937s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.051458s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.051889s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.052176s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001890s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.052966s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000735s ]
+
+[ 2014-08-19T17:15:51+08:00 ] 127.0.0.1 /Public/drag
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.038093s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000803s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.038829s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016190s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.055115s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.055572s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.056021s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.056326s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001872s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.057130s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000631s ]
+
+[ 2014-08-19T17:15:51+08:00 ] 127.0.0.1 /Public/menu
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.095623s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001245s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: menuTag E:\Source\PhpStorm\rbac\App\Runtime\Cache\10a6c7e591c767fd76726ec0dae6d8fa.php 第 22 行.
+NOTIC: [8] Undefined variable: menuTag E:\Source\PhpStorm\rbac\App\Runtime\Cache\10a6c7e591c767fd76726ec0dae6d8fa.php 第 22 行.
+NOTIC: [8] Undefined variable: menuTag E:\Source\PhpStorm\rbac\App\Runtime\Cache\10a6c7e591c767fd76726ec0dae6d8fa.php 第 22 行.
+NOTIC: [8] Undefined variable: menuTag E:\Source\PhpStorm\rbac\App\Runtime\Cache\10a6c7e591c767fd76726ec0dae6d8fa.php 第 22 行.
+NOTIC: [8] Undefined variable: menuTag E:\Source\PhpStorm\rbac\App\Runtime\Cache\10a6c7e591c767fd76726ec0dae6d8fa.php 第 22 行.
+NOTIC: [8] Undefined variable: menuTag E:\Source\PhpStorm\rbac\App\Runtime\Cache\10a6c7e591c767fd76726ec0dae6d8fa.php 第 22 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.096995s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021117s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.118195s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.118686s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.119189s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.119563s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002049s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.120394s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000793s ]
+
+[ 2014-08-19T17:15:52+08:00 ] 127.0.0.1 /Public/footer
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.152449s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000809s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.153360s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029229s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.182764s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.183512s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.184164s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.184690s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002673s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.185552s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000748s ]
+
+[ 2014-08-19T17:15:52+08:00 ] ERR: (ThinkException) 非法操作:Images
+[ 2014-08-19T17:15:52+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-19T17:17:02+08:00 ] ERR: (ThinkException) 非法操作:Js
+[ 2014-08-19T17:17:08+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-19T17:17:09+08:00 ] ERR: (ThinkException) 非法操作:Images
+[ 2014-08-19T17:17:09+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-19T17:17:26+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-19T17:17:27+08:00 ] 127.0.0.1 /Index/index
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.015771s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000633s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.016498s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005676s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.022254s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.022703s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.023130s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.023430s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001755s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.024152s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000590s ]
+
+[ 2014-08-19T17:17:27+08:00 ] 127.0.0.1 /Public/top
+SQL: SHOW COLUMNS FROM `think_group` [ RunTime:0.006959s ]
+SQL: SELECT `id`,`title` FROM `think_group` WHERE status=1  [ RunTime:0.000640s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.022079s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000802s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.022996s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008941s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.032024s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.032438s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.032859s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.033142s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001707s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.033884s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000614s ]
+
+[ 2014-08-19T17:17:27+08:00 ] 127.0.0.1 /Public/menu
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.056705s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000583s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: menuTag E:\Source\PhpStorm\rbac\App\Runtime\Cache\10a6c7e591c767fd76726ec0dae6d8fa.php 第 22 行.
+NOTIC: [8] Undefined variable: menuTag E:\Source\PhpStorm\rbac\App\Runtime\Cache\10a6c7e591c767fd76726ec0dae6d8fa.php 第 22 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.057390s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009376s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.066853s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.067264s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.067704s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.068027s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001883s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.068885s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000620s ]
+
+[ 2014-08-19T17:17:27+08:00 ] 127.0.0.1 /Public/drag
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.089655s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000730s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.090458s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007897s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.098444s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.098913s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.099343s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.099668s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002007s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.100608s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000891s ]
+
+[ 2014-08-19T17:17:27+08:00 ] 127.0.0.1 /Public/footer
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.106924s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000606s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.107628s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006414s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.114135s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.114559s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.115007s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.115302s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001822s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.116112s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000851s ]
+
+[ 2014-08-19T17:17:27+08:00 ] ERR: (ThinkException) 非法操作:Images
+[ 2014-08-19T17:17:27+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-19T17:17:47+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-19T17:17:48+08:00 ] ERR: (ThinkException) 非法操作:Images
+[ 2014-08-19T17:17:48+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-19T18:50:20+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-19T18:50:23+08:00 ] ERR: (ThinkException) 非法操作:Images
+[ 2014-08-19T18:50:23+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-19T18:50:35+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-19T18:50:36+08:00 ] 127.0.0.1 /Index/index
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.020461s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000684s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.021243s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008388s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.029716s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.030112s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.030560s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.030855s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001676s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.031517s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000559s ]
+
+[ 2014-08-19T18:50:36+08:00 ] 127.0.0.1 /Public/top
+SQL: SHOW COLUMNS FROM `think_group` [ RunTime:0.013300s ]
+SQL: SELECT `id`,`title` FROM `think_group` WHERE status=1  [ RunTime:0.000373s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.037571s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000714s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.038449s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015278s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.053771s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.054196s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.054604s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.054863s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001646s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.055548s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000757s ]
+
+[ 2014-08-19T18:50:36+08:00 ] 127.0.0.1 /Public/menu
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.077723s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000779s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: menuTag E:\Source\PhpStorm\rbac\App\Runtime\Cache\10a6c7e591c767fd76726ec0dae6d8fa.php 第 22 行.
+NOTIC: [8] Undefined variable: menuTag E:\Source\PhpStorm\rbac\App\Runtime\Cache\10a6c7e591c767fd76726ec0dae6d8fa.php 第 22 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.078604s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015862s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.094561s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.095060s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.095568s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.095953s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002040s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.096732s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000633s ]
+
+[ 2014-08-19T18:50:36+08:00 ] 127.0.0.1 /Public/footer
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.100316s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000715s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.101126s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008709s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.109924s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.110398s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.110905s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.111301s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002074s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.112130s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000671s ]
+
+[ 2014-08-19T18:50:37+08:00 ] 127.0.0.1 /Public/drag
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.115814s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000682s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.116592s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015367s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.132051s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.132870s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.133504s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.133867s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002470s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.134668s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000651s ]
+
+[ 2014-08-19T18:50:37+08:00 ] ERR: (ThinkException) 非法操作:Images
+[ 2014-08-19T18:50:37+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-19T18:51:07+08:00 ] 127.0.0.1 /Public/menu/title/%E5%90%8E%E5%8F%B0%E9%A6%96%E9%A1%B5
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.018013s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000591s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: menuTag E:\Source\PhpStorm\rbac\App\Runtime\Cache\10a6c7e591c767fd76726ec0dae6d8fa.php 第 22 行.
+NOTIC: [8] Undefined variable: menuTag E:\Source\PhpStorm\rbac\App\Runtime\Cache\10a6c7e591c767fd76726ec0dae6d8fa.php 第 22 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.018722s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010536s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.029350s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.029763s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.030183s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.030457s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001682s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.031165s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000606s ]
+
+[ 2014-08-19T18:51:07+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-19T18:51:08+08:00 ] 127.0.0.1 /Public/menu/tag/2/title/%E5%BA%94%E7%94%A8%E4%B8%AD%E5%BF%83
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.002424s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000434s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.002983s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008998s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.012050s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.012431s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.012845s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.013124s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001634s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.013819s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000564s ]
+
+[ 2014-08-19T18:51:08+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-19T18:51:11+08:00 ] 127.0.0.1 /Public/menu/title/%E5%90%8E%E5%8F%B0%E9%A6%96%E9%A1%B5
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.020610s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000611s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: menuTag E:\Source\PhpStorm\rbac\App\Runtime\Cache\10a6c7e591c767fd76726ec0dae6d8fa.php 第 22 行.
+NOTIC: [8] Undefined variable: menuTag E:\Source\PhpStorm\rbac\App\Runtime\Cache\10a6c7e591c767fd76726ec0dae6d8fa.php 第 22 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.021314s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014133s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.035560s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.036051s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.036559s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.036928s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001998s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.037691s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000694s ]
+
+[ 2014-08-19T18:51:12+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-19T18:51:13+08:00 ] 127.0.0.1 /Public/menu/tag/2/title/%E5%BA%94%E7%94%A8%E4%B8%AD%E5%BF%83
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.002211s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000492s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.002798s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008995s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.011885s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.012304s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.012741s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.013061s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001779s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.013810s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000581s ]
+
+[ 2014-08-19T18:51:13+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-19T18:51:13+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-19T18:51:16+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-19T18:51:17+08:00 ] ERR: (ThinkException) 非法操作:Images
+[ 2014-08-19T18:51:17+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-19T18:51:28+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-19T18:51:29+08:00 ] 127.0.0.1 /Index/index
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.020311s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001374s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.021921s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008205s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.030171s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.030654s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.031179s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.031523s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002063s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.032402s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000730s ]
+
+[ 2014-08-19T18:51:29+08:00 ] 127.0.0.1 /Public/top
+SQL: SHOW COLUMNS FROM `think_group` [ RunTime:0.028505s ]
+SQL: SELECT `id`,`title` FROM `think_group` WHERE status=1  [ RunTime:0.000448s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.046304s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000865s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.047274s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008310s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.055641s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.056041s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.056458s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.056738s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001681s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.057459s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000597s ]
+
+[ 2014-08-19T18:51:29+08:00 ] 127.0.0.1 /Public/menu
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.078431s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000598s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: menuTag E:\Source\PhpStorm\rbac\App\Runtime\Cache\10a6c7e591c767fd76726ec0dae6d8fa.php 第 22 行.
+NOTIC: [8] Undefined variable: menuTag E:\Source\PhpStorm\rbac\App\Runtime\Cache\10a6c7e591c767fd76726ec0dae6d8fa.php 第 22 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.079130s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008974s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.088182s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.088569s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.089013s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.089292s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001791s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.090118s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000707s ]
+
+[ 2014-08-19T18:51:29+08:00 ] 127.0.0.1 /Public/drag
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.109938s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000775s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.110809s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005791s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.116685s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.117074s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.117521s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.117901s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001781s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.118599s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000571s ]
+
+[ 2014-08-19T18:51:29+08:00 ] 127.0.0.1 /Public/footer
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.121332s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000711s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.122134s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008074s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.130300s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.130734s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.131217s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.131611s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002101s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.132599s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000820s ]
+
+[ 2014-08-19T18:51:29+08:00 ] ERR: (ThinkException) 非法操作:Images
+[ 2014-08-19T18:51:29+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-19T18:51:31+08:00 ] 127.0.0.1 /Public/menu/tag/2/title/%E5%BA%94%E7%94%A8%E4%B8%AD%E5%BF%83
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.002299s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000512s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.002907s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008778s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.011766s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.012159s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.012583s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.012945s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001758s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.013654s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000567s ]
+
+[ 2014-08-19T18:51:31+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-19T18:51:31+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-19T18:51:32+08:00 ] 127.0.0.1 /Public/menu/title/%E5%90%8E%E5%8F%B0%E9%A6%96%E9%A1%B5
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.018088s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000702s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: menuTag E:\Source\PhpStorm\rbac\App\Runtime\Cache\10a6c7e591c767fd76726ec0dae6d8fa.php 第 22 行.
+NOTIC: [8] Undefined variable: menuTag E:\Source\PhpStorm\rbac\App\Runtime\Cache\10a6c7e591c767fd76726ec0dae6d8fa.php 第 22 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.018880s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012975s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.031944s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.032369s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.032812s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.033097s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001763s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.033844s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000603s ]
+
+[ 2014-08-19T18:51:32+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-19T18:54:22+08:00 ] 127.0.0.1 /Public/menu/tag/2/title/%E5%BA%94%E7%94%A8%E4%B8%AD%E5%BF%83
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.002728s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000709s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.003531s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009685s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.013304s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.013761s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.014251s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.014632s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001976s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.015411s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000630s ]
+
+[ 2014-08-19T18:54:22+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-19T18:54:22+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-19T18:54:23+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-19T18:54:24+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-19T18:54:48+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-19T18:54:49+08:00 ] ERR: (ThinkException) 非法操作:Images
+[ 2014-08-19T18:54:49+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-19T18:54:56+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-19T18:54:57+08:00 ] 127.0.0.1 /Index/index
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.008965s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001314s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.010507s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005844s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.016393s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.016774s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.017192s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.017550s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001735s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.018259s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000573s ]
+
+[ 2014-08-19T18:54:57+08:00 ] 127.0.0.1 /Public/top
+SQL: SHOW COLUMNS FROM `think_group` [ RunTime:0.009018s ]
+SQL: SELECT `id`,`title` FROM `think_group` WHERE status=1  [ RunTime:0.000428s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.024759s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000821s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.025665s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012323s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.038065s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.038586s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.039156s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.039802s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003068s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.041535s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001647s ]
+
+[ 2014-08-19T18:54:57+08:00 ] 127.0.0.1 /Public/menu
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.067351s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000585s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: menuTag E:\Source\PhpStorm\rbac\App\Runtime\Cache\10a6c7e591c767fd76726ec0dae6d8fa.php 第 22 行.
+NOTIC: [8] Undefined variable: menuTag E:\Source\PhpStorm\rbac\App\Runtime\Cache\10a6c7e591c767fd76726ec0dae6d8fa.php 第 22 行.
+NOTIC: [8] Undefined variable: menuTag E:\Source\PhpStorm\rbac\App\Runtime\Cache\10a6c7e591c767fd76726ec0dae6d8fa.php 第 22 行.
+NOTIC: [8] Undefined variable: menuTag E:\Source\PhpStorm\rbac\App\Runtime\Cache\10a6c7e591c767fd76726ec0dae6d8fa.php 第 22 行.
+NOTIC: [8] Undefined variable: menuTag E:\Source\PhpStorm\rbac\App\Runtime\Cache\10a6c7e591c767fd76726ec0dae6d8fa.php 第 22 行.
+NOTIC: [8] Undefined variable: menuTag E:\Source\PhpStorm\rbac\App\Runtime\Cache\10a6c7e591c767fd76726ec0dae6d8fa.php 第 22 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.068037s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012876s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.080998s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.081404s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.081883s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.082251s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001892s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.083035s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000604s ]
+
+[ 2014-08-19T18:54:57+08:00 ] 127.0.0.1 /Public/drag
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.084400s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001132s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.085703s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009225s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.094982s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.095483s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.095985s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.096497s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002355s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.097522s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000752s ]
+
+[ 2014-08-19T18:54:57+08:00 ] 127.0.0.1 /Public/footer
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.118523s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001089s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.119813s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010248s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.130098s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.130863s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.131451s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.131927s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002801s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.133045s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000917s ]
+
+[ 2014-08-19T18:54:57+08:00 ] ERR: (ThinkException) 非法操作:Images
+[ 2014-08-19T18:54:57+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-19T18:54:58+08:00 ] 127.0.0.1 /Public/menu/tag/2/title/%E5%BA%94%E7%94%A8%E4%B8%AD%E5%BF%83
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.002466s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000555s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.003118s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009778s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.012988s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.013419s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.013868s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.014246s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001879s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.015005s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000605s ]
+
+[ 2014-08-19T18:54:59+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-19T18:54:59+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-19T18:55:01+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-19T18:55:03+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-19T18:55:07+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-19T18:56:31+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-19T18:56:34+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-19T18:56:36+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-19T18:56:36+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-19T18:56:47+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-19T18:56:48+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-19T18:56:49+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-19T18:56:49+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-19T18:57:43+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-19T18:57:44+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-19T18:57:46+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-19T18:57:47+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-19T18:58:00+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-19T18:58:03+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-19T18:58:11+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-19T18:58:20+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-19T18:58:22+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-19T18:58:25+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-19T18:58:26+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-19T18:58:31+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-19T19:00:15+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-19T19:00:16+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-19T19:00:22+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-19T19:00:24+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-19T19:00:28+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-19T19:00:35+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-19T19:00:37+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-19T19:12:25+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-19T19:12:26+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-19T19:12:56+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-19T19:13:51+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-19T19:13:55+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-19T19:13:56+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-19T19:14:48+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-19T19:14:49+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-19T19:39:56+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-19T19:39:58+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-19T19:39:58+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-19T19:41:08+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-19T19:41:10+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-19T19:41:13+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-19T19:44:50+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-19T19:44:51+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-19T19:44:52+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-19T19:44:53+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-19T19:44:54+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-19T19:45:58+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-19T19:45:58+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-19T19:45:59+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-19T19:46:00+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-19T19:46:01+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-19T19:46:02+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-19T19:46:02+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-19T20:10:48+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-19T20:10:49+08:00 ] ERR: (ThinkException) 非法操作:Images
+[ 2014-08-19T20:10:49+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-19T20:12:04+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-19T20:12:05+08:00 ] 127.0.0.1 /Index/index
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.005234s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000794s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.006158s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011064s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.017327s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.017851s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.018467s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.018944s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002410s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.019912s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000835s ]
+
+[ 2014-08-19T20:12:05+08:00 ] 127.0.0.1 /Public/top
+SQL: SHOW COLUMNS FROM `think_group` [ RunTime:0.024206s ]
+SQL: SELECT `id`,`title` FROM `think_group` WHERE status=1  [ RunTime:0.000239s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.048007s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000619s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.048735s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015983s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.064794s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.065314s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.065776s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.066146s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002001s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.066936s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000742s ]
+
+[ 2014-08-19T20:12:05+08:00 ] 127.0.0.1 /Public/menu
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.089154s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000956s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: menuTag E:\Source\PhpStorm\rbac\App\Runtime\Cache\10a6c7e591c767fd76726ec0dae6d8fa.php 第 22 行.
+NOTIC: [8] Undefined variable: menuTag E:\Source\PhpStorm\rbac\App\Runtime\Cache\10a6c7e591c767fd76726ec0dae6d8fa.php 第 22 行.
+NOTIC: [8] Undefined variable: menuTag E:\Source\PhpStorm\rbac\App\Runtime\Cache\10a6c7e591c767fd76726ec0dae6d8fa.php 第 22 行.
+NOTIC: [8] Undefined variable: menuTag E:\Source\PhpStorm\rbac\App\Runtime\Cache\10a6c7e591c767fd76726ec0dae6d8fa.php 第 22 行.
+NOTIC: [8] Undefined variable: menuTag E:\Source\PhpStorm\rbac\App\Runtime\Cache\10a6c7e591c767fd76726ec0dae6d8fa.php 第 22 行.
+NOTIC: [8] Undefined variable: menuTag E:\Source\PhpStorm\rbac\App\Runtime\Cache\10a6c7e591c767fd76726ec0dae6d8fa.php 第 22 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.090193s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009642s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.099906s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.100289s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.100733s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.101089s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001739s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.101780s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000557s ]
+
+[ 2014-08-19T20:12:05+08:00 ] 127.0.0.1 /Public/drag
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.103326s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000678s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.104113s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010661s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.114871s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.115369s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.115852s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.116201s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001937s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.116932s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000680s ]
+
+[ 2014-08-19T20:12:05+08:00 ] 127.0.0.1 /Public/footer
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.121107s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000720s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.121922s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015019s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.137030s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.137540s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.138026s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.138411s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002011s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.139175s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000640s ]
+
+[ 2014-08-19T20:12:05+08:00 ] ERR: (ThinkException) 非法操作:Images
+[ 2014-08-19T20:12:05+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-19T20:12:32+08:00 ] 127.0.0.1 /Index/index
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.004240s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000600s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.004945s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005901s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.010940s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.011335s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.011767s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.012045s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001701s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.012767s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000581s ]
+
+[ 2014-08-19T20:12:33+08:00 ] 127.0.0.1 /Public/top
+SQL: SHOW COLUMNS FROM `think_group` [ RunTime:0.006133s ]
+SQL: SELECT `id`,`title` FROM `think_group` WHERE status=1  [ RunTime:0.000237s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.026795s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000613s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.027525s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014443s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.042061s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.042490s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.042952s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.043275s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001837s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.044027s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000675s ]
+
+[ 2014-08-19T20:12:33+08:00 ] 127.0.0.1 /Public/menu
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.048594s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001080s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: menuTag E:\Source\PhpStorm\rbac\App\Runtime\Cache\10a6c7e591c767fd76726ec0dae6d8fa.php 第 22 行.
+NOTIC: [8] Undefined variable: menuTag E:\Source\PhpStorm\rbac\App\Runtime\Cache\10a6c7e591c767fd76726ec0dae6d8fa.php 第 22 行.
+NOTIC: [8] Undefined variable: menuTag E:\Source\PhpStorm\rbac\App\Runtime\Cache\10a6c7e591c767fd76726ec0dae6d8fa.php 第 22 行.
+NOTIC: [8] Undefined variable: menuTag E:\Source\PhpStorm\rbac\App\Runtime\Cache\10a6c7e591c767fd76726ec0dae6d8fa.php 第 22 行.
+NOTIC: [8] Undefined variable: menuTag E:\Source\PhpStorm\rbac\App\Runtime\Cache\10a6c7e591c767fd76726ec0dae6d8fa.php 第 22 行.
+NOTIC: [8] Undefined variable: menuTag E:\Source\PhpStorm\rbac\App\Runtime\Cache\10a6c7e591c767fd76726ec0dae6d8fa.php 第 22 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.049357s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011466s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.061044s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.061611s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.062210s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.062749s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002376s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.063509s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000683s ]
+
+[ 2014-08-19T20:12:33+08:00 ] 127.0.0.1 /Public/drag
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.068365s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001028s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.069555s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008811s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.078453s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.079146s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.079834s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.080469s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003067s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.081797s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001023s ]
+
+[ 2014-08-19T20:12:33+08:00 ] 127.0.0.1 /Public/footer
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.102455s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001009s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.103610s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007265s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.111174s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.112131s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.112702s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.113117s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002795s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.114063s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001207s ]
+
+[ 2014-08-19T20:12:33+08:00 ] ERR: (ThinkException) 非法操作:Images
+[ 2014-08-19T20:12:33+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-19T20:12:39+08:00 ] 127.0.0.1 /Index/index
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.004590s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000602s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.005297s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006210s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.011591s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.011987s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.012453s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.012819s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001806s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.013530s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000581s ]
+
+[ 2014-08-19T20:12:39+08:00 ] 127.0.0.1 /Public/top
+SQL: SHOW COLUMNS FROM `think_group` [ RunTime:0.007316s ]
+SQL: SELECT `id`,`title` FROM `think_group` WHERE status=1  [ RunTime:0.000299s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.020484s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000637s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.021235s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007739s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.029067s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.029486s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.029971s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.030335s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001865s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.031060s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000573s ]
+
+[ 2014-08-19T20:12:39+08:00 ] 127.0.0.1 /Public/menu
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.036355s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000822s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: menuTag E:\Source\PhpStorm\rbac\App\Runtime\Cache\10a6c7e591c767fd76726ec0dae6d8fa.php 第 22 行.
+NOTIC: [8] Undefined variable: menuTag E:\Source\PhpStorm\rbac\App\Runtime\Cache\10a6c7e591c767fd76726ec0dae6d8fa.php 第 22 行.
+NOTIC: [8] Undefined variable: menuTag E:\Source\PhpStorm\rbac\App\Runtime\Cache\10a6c7e591c767fd76726ec0dae6d8fa.php 第 22 行.
+NOTIC: [8] Undefined variable: menuTag E:\Source\PhpStorm\rbac\App\Runtime\Cache\10a6c7e591c767fd76726ec0dae6d8fa.php 第 22 行.
+NOTIC: [8] Undefined variable: menuTag E:\Source\PhpStorm\rbac\App\Runtime\Cache\10a6c7e591c767fd76726ec0dae6d8fa.php 第 22 行.
+NOTIC: [8] Undefined variable: menuTag E:\Source\PhpStorm\rbac\App\Runtime\Cache\10a6c7e591c767fd76726ec0dae6d8fa.php 第 22 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.037046s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012526s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.049840s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.050566s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.051319s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.051885s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003016s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.053046s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001018s ]
+
+[ 2014-08-19T20:12:39+08:00 ] 127.0.0.1 /Public/drag
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.057900s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000861s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.058765s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006475s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.065378s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.065829s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.066383s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.066760s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002001s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.067586s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001117s ]
+
+[ 2014-08-19T20:12:39+08:00 ] 127.0.0.1 /Public/footer
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.072346s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000965s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.073506s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008608s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.082172s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.082595s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.083096s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.083608s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002133s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.084476s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000613s ]
+
+[ 2014-08-19T20:12:39+08:00 ] ERR: (ThinkException) 非法操作:Images
+[ 2014-08-19T20:12:39+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-19T20:12:41+08:00 ] 127.0.0.1 /Index/index
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.003824s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000599s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.004517s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006779s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.011384s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.011772s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.012315s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.012683s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001917s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.013434s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000631s ]
+
+[ 2014-08-19T20:12:41+08:00 ] 127.0.0.1 /Public/top
+SQL: SHOW COLUMNS FROM `think_group` [ RunTime:0.005704s ]
+SQL: SELECT `id`,`title` FROM `think_group` WHERE status=1  [ RunTime:0.000242s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.026999s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000602s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.027745s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007611s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.035394s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.035778s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.036250s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.036636s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001823s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.037355s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000571s ]
+
+[ 2014-08-19T20:12:41+08:00 ] 127.0.0.1 /Public/menu
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.040550s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000678s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: menuTag E:\Source\PhpStorm\rbac\App\Runtime\Cache\10a6c7e591c767fd76726ec0dae6d8fa.php 第 22 行.
+NOTIC: [8] Undefined variable: menuTag E:\Source\PhpStorm\rbac\App\Runtime\Cache\10a6c7e591c767fd76726ec0dae6d8fa.php 第 22 行.
+NOTIC: [8] Undefined variable: menuTag E:\Source\PhpStorm\rbac\App\Runtime\Cache\10a6c7e591c767fd76726ec0dae6d8fa.php 第 22 行.
+NOTIC: [8] Undefined variable: menuTag E:\Source\PhpStorm\rbac\App\Runtime\Cache\10a6c7e591c767fd76726ec0dae6d8fa.php 第 22 行.
+NOTIC: [8] Undefined variable: menuTag E:\Source\PhpStorm\rbac\App\Runtime\Cache\10a6c7e591c767fd76726ec0dae6d8fa.php 第 22 行.
+NOTIC: [8] Undefined variable: menuTag E:\Source\PhpStorm\rbac\App\Runtime\Cache\10a6c7e591c767fd76726ec0dae6d8fa.php 第 22 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.041191s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011695s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.052980s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.053422s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.053914s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.054400s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002007s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.055127s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000603s ]
+
+[ 2014-08-19T20:12:41+08:00 ] 127.0.0.1 /Public/drag
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.058126s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000480s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.058716s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007275s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.066144s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.066784s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.067335s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.067819s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002401s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.068683s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000695s ]
+
+[ 2014-08-19T20:12:41+08:00 ] 127.0.0.1 /Public/footer
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.092986s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000762s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.093844s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006799s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.100760s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.101238s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.101747s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.102179s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002153s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.103282s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001247s ]
+
+[ 2014-08-19T20:12:41+08:00 ] ERR: (ThinkException) 非法操作:Images
+[ 2014-08-19T20:12:41+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-19T20:12:48+08:00 ] 127.0.0.1 /Index/index
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.004183s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000694s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.004983s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006216s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.011285s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.011739s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.012222s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.012611s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001953s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.013382s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000654s ]
+
+[ 2014-08-19T20:12:48+08:00 ] 127.0.0.1 /Public/top
+SQL: SHOW COLUMNS FROM `think_group` [ RunTime:0.007058s ]
+SQL: SELECT `id`,`title` FROM `think_group` WHERE status=1  [ RunTime:0.000276s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.018810s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000705s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.019630s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016203s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.035920s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.036362s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.037124s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.037719s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002706s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.038884s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000739s ]
+
+[ 2014-08-19T20:12:48+08:00 ] 127.0.0.1 /Public/drag
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.042040s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000625s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.042753s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008521s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.051326s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.051766s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.052395s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.052839s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002197s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.053667s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000670s ]
+
+[ 2014-08-19T20:12:48+08:00 ] 127.0.0.1 /Public/menu
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.058763s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000849s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: menuTag E:\Source\PhpStorm\rbac\App\Runtime\Cache\10a6c7e591c767fd76726ec0dae6d8fa.php 第 22 行.
+NOTIC: [8] Undefined variable: menuTag E:\Source\PhpStorm\rbac\App\Runtime\Cache\10a6c7e591c767fd76726ec0dae6d8fa.php 第 22 行.
+NOTIC: [8] Undefined variable: menuTag E:\Source\PhpStorm\rbac\App\Runtime\Cache\10a6c7e591c767fd76726ec0dae6d8fa.php 第 22 行.
+NOTIC: [8] Undefined variable: menuTag E:\Source\PhpStorm\rbac\App\Runtime\Cache\10a6c7e591c767fd76726ec0dae6d8fa.php 第 22 行.
+NOTIC: [8] Undefined variable: menuTag E:\Source\PhpStorm\rbac\App\Runtime\Cache\10a6c7e591c767fd76726ec0dae6d8fa.php 第 22 行.
+NOTIC: [8] Undefined variable: menuTag E:\Source\PhpStorm\rbac\App\Runtime\Cache\10a6c7e591c767fd76726ec0dae6d8fa.php 第 22 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.059807s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011600s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.071580s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.072082s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.072539s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.072906s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001950s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.073629s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000591s ]
+
+[ 2014-08-19T20:12:48+08:00 ] 127.0.0.1 /Public/footer
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.092292s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000640s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.092940s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006268s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.099432s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.100132s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.100655s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.101027s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002227s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.101745s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000582s ]
+
+[ 2014-08-19T20:12:48+08:00 ] ERR: (ThinkException) 非法操作:Images
+[ 2014-08-19T20:12:48+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-19T20:12:50+08:00 ] 127.0.0.1 /Index/index
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.003595s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000609s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.004301s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005819s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.010211s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.010604s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.011075s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.011452s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001826s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.012179s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000589s ]
+
+[ 2014-08-19T20:12:50+08:00 ] 127.0.0.1 /Public/top
+SQL: SHOW COLUMNS FROM `think_group` [ RunTime:0.005488s ]
+SQL: SELECT `id`,`title` FROM `think_group` WHERE status=1  [ RunTime:0.000365s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.017765s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000651s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.018531s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007603s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.026212s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.026611s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.027058s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.027415s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001794s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.028146s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000588s ]
+
+[ 2014-08-19T20:12:50+08:00 ] 127.0.0.1 /Public/menu
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.031779s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000678s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: menuTag E:\Source\PhpStorm\rbac\App\Runtime\Cache\10a6c7e591c767fd76726ec0dae6d8fa.php 第 22 行.
+NOTIC: [8] Undefined variable: menuTag E:\Source\PhpStorm\rbac\App\Runtime\Cache\10a6c7e591c767fd76726ec0dae6d8fa.php 第 22 行.
+NOTIC: [8] Undefined variable: menuTag E:\Source\PhpStorm\rbac\App\Runtime\Cache\10a6c7e591c767fd76726ec0dae6d8fa.php 第 22 行.
+NOTIC: [8] Undefined variable: menuTag E:\Source\PhpStorm\rbac\App\Runtime\Cache\10a6c7e591c767fd76726ec0dae6d8fa.php 第 22 行.
+NOTIC: [8] Undefined variable: menuTag E:\Source\PhpStorm\rbac\App\Runtime\Cache\10a6c7e591c767fd76726ec0dae6d8fa.php 第 22 行.
+NOTIC: [8] Undefined variable: menuTag E:\Source\PhpStorm\rbac\App\Runtime\Cache\10a6c7e591c767fd76726ec0dae6d8fa.php 第 22 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.032540s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010518s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.043151s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.043571s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.044033s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.044427s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001882s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.045177s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000625s ]
+
+[ 2014-08-19T20:12:50+08:00 ] 127.0.0.1 /Public/drag
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.065196s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000554s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.065843s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006048s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.072102s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.072599s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.073175s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.073589s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002114s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.074303s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000583s ]
+
+[ 2014-08-19T20:12:50+08:00 ] 127.0.0.1 /Public/footer
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.078789s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000601s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.079479s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006106s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.085700s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.086220s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.086797s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.087233s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002136s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.087964s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000733s ]
+
+[ 2014-08-19T20:12:50+08:00 ] ERR: (ThinkException) 非法操作:Images
+[ 2014-08-19T20:12:50+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-19T20:12:50+08:00 ] 127.0.0.1 /Index/index
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.003488s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000564s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.004185s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005704s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.009964s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.010334s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.010743s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.011014s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001712s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.011805s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000562s ]
+
+[ 2014-08-19T20:12:50+08:00 ] 127.0.0.1 /Public/menu
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.020320s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000598s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: menuTag E:\Source\PhpStorm\rbac\App\Runtime\Cache\10a6c7e591c767fd76726ec0dae6d8fa.php 第 22 行.
+NOTIC: [8] Undefined variable: menuTag E:\Source\PhpStorm\rbac\App\Runtime\Cache\10a6c7e591c767fd76726ec0dae6d8fa.php 第 22 行.
+NOTIC: [8] Undefined variable: menuTag E:\Source\PhpStorm\rbac\App\Runtime\Cache\10a6c7e591c767fd76726ec0dae6d8fa.php 第 22 行.
+NOTIC: [8] Undefined variable: menuTag E:\Source\PhpStorm\rbac\App\Runtime\Cache\10a6c7e591c767fd76726ec0dae6d8fa.php 第 22 行.
+NOTIC: [8] Undefined variable: menuTag E:\Source\PhpStorm\rbac\App\Runtime\Cache\10a6c7e591c767fd76726ec0dae6d8fa.php 第 22 行.
+NOTIC: [8] Undefined variable: menuTag E:\Source\PhpStorm\rbac\App\Runtime\Cache\10a6c7e591c767fd76726ec0dae6d8fa.php 第 22 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.020990s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010707s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.031918s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.032606s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.033385s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.034022s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003283s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.035459s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001719s ]
+
+[ 2014-08-19T20:12:50+08:00 ] 127.0.0.1 /Public/drag
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.041748s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000723s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.042553s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006567s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.049225s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.049885s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.050481s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.050945s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002378s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.051785s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001165s ]
+
+[ 2014-08-19T20:12:50+08:00 ] 127.0.0.1 /Public/top
+SQL: SHOW COLUMNS FROM `think_group` [ RunTime:0.004078s ]
+SQL: SELECT `id`,`title` FROM `think_group` WHERE status=1  [ RunTime:0.000781s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.071346s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001045s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.072519s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008772s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.081362s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.081765s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.082199s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.082479s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001713s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.083223s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000595s ]
+
+[ 2014-08-19T20:12:50+08:00 ] 127.0.0.1 /Public/footer
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.085809s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001177s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.087047s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006379s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.093544s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.094167s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.094652s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.095025s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002091s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.095747s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000770s ]
+
+[ 2014-08-19T20:12:50+08:00 ] ERR: (ThinkException) 非法操作:Images
+[ 2014-08-19T20:12:50+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-19T20:12:52+08:00 ] 127.0.0.1 /Index/index
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.003796s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000581s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.004483s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005755s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.010335s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.010712s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.011155s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.011511s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001732s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.012198s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000565s ]
+
+[ 2014-08-19T20:12:52+08:00 ] 127.0.0.1 /Public/menu
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.002883s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000595s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: menuTag E:\Source\PhpStorm\rbac\App\Runtime\Cache\10a6c7e591c767fd76726ec0dae6d8fa.php 第 22 行.
+NOTIC: [8] Undefined variable: menuTag E:\Source\PhpStorm\rbac\App\Runtime\Cache\10a6c7e591c767fd76726ec0dae6d8fa.php 第 22 行.
+NOTIC: [8] Undefined variable: menuTag E:\Source\PhpStorm\rbac\App\Runtime\Cache\10a6c7e591c767fd76726ec0dae6d8fa.php 第 22 行.
+NOTIC: [8] Undefined variable: menuTag E:\Source\PhpStorm\rbac\App\Runtime\Cache\10a6c7e591c767fd76726ec0dae6d8fa.php 第 22 行.
+NOTIC: [8] Undefined variable: menuTag E:\Source\PhpStorm\rbac\App\Runtime\Cache\10a6c7e591c767fd76726ec0dae6d8fa.php 第 22 行.
+NOTIC: [8] Undefined variable: menuTag E:\Source\PhpStorm\rbac\App\Runtime\Cache\10a6c7e591c767fd76726ec0dae6d8fa.php 第 22 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.003581s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009583s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.013254s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.013651s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.014103s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.014468s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001784s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.015173s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000592s ]
+
+[ 2014-08-19T20:12:52+08:00 ] 127.0.0.1 /Public/top
+SQL: SHOW COLUMNS FROM `think_group` [ RunTime:0.006186s ]
+SQL: SELECT `id`,`title` FROM `think_group` WHERE status=1  [ RunTime:0.000534s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.034030s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000673s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.034814s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007790s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.042684s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.043069s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.043509s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.043875s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001765s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.044590s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000588s ]
+
+[ 2014-08-19T20:12:52+08:00 ] 127.0.0.1 /Public/drag
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.048245s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000957s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.049189s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006140s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.055411s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.055818s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.056267s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.056640s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001809s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.057354s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000590s ]
+
+[ 2014-08-19T20:12:52+08:00 ] 127.0.0.1 /Public/footer
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.061994s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000716s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.062729s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006933s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.069748s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.070150s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.070580s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.070858s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001686s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.071571s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000582s ]
+
+[ 2014-08-19T20:12:52+08:00 ] ERR: (ThinkException) 非法操作:Images
+[ 2014-08-19T20:12:52+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-19T20:12:57+08:00 ] 127.0.0.1 /Index/index
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.003675s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000547s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.004313s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005645s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.010037s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.010418s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.010853s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.011195s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001688s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.011849s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000538s ]
+
+[ 2014-08-19T20:12:57+08:00 ] 127.0.0.1 /Public/menu
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.018459s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000967s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: menuTag E:\Source\PhpStorm\rbac\App\Runtime\Cache\10a6c7e591c767fd76726ec0dae6d8fa.php 第 22 行.
+NOTIC: [8] Undefined variable: menuTag E:\Source\PhpStorm\rbac\App\Runtime\Cache\10a6c7e591c767fd76726ec0dae6d8fa.php 第 22 行.
+NOTIC: [8] Undefined variable: menuTag E:\Source\PhpStorm\rbac\App\Runtime\Cache\10a6c7e591c767fd76726ec0dae6d8fa.php 第 22 行.
+NOTIC: [8] Undefined variable: menuTag E:\Source\PhpStorm\rbac\App\Runtime\Cache\10a6c7e591c767fd76726ec0dae6d8fa.php 第 22 行.
+NOTIC: [8] Undefined variable: menuTag E:\Source\PhpStorm\rbac\App\Runtime\Cache\10a6c7e591c767fd76726ec0dae6d8fa.php 第 22 行.
+NOTIC: [8] Undefined variable: menuTag E:\Source\PhpStorm\rbac\App\Runtime\Cache\10a6c7e591c767fd76726ec0dae6d8fa.php 第 22 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.019590s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013236s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.032997s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.033716s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.034577s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.035271s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003326s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.036558s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000993s ]
+
+[ 2014-08-19T20:12:57+08:00 ] 127.0.0.1 /Public/top
+SQL: SHOW COLUMNS FROM `think_group` [ RunTime:0.006945s ]
+SQL: SELECT `id`,`title` FROM `think_group` WHERE status=1  [ RunTime:0.000271s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.057030s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000597s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.057736s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010092s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.067923s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.068550s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.069189s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.069749s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002506s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.070579s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000879s ]
+
+[ 2014-08-19T20:12:57+08:00 ] 127.0.0.1 /Public/footer
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.075373s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000628s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.076003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008608s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.084726s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.085367s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.085863s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.086150s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002040s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.086895s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000674s ]
+
+[ 2014-08-19T20:12:57+08:00 ] 127.0.0.1 /Public/drag
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.092370s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000564s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.093032s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008035s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.101168s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.101640s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.102128s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.102547s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002062s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.103374s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000629s ]
+
+[ 2014-08-19T20:12:57+08:00 ] ERR: (ThinkException) 非法操作:Images
+[ 2014-08-19T20:12:57+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-19T20:14:53+08:00 ] 127.0.0.1 /Index/index
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.004176s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000672s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.004949s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006135s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.011165s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.011604s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.012081s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.012453s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001913s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.013211s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000679s ]
+
+[ 2014-08-19T20:14:53+08:00 ] 127.0.0.1 /Public/top
+SQL: SHOW COLUMNS FROM `think_group` [ RunTime:0.007974s ]
+SQL: SELECT `id`,`title` FROM `think_group` WHERE status=1  [ RunTime:0.000314s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.029341s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000673s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.030125s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017613s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.047829s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.048437s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.049105s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.049598s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002366s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.050340s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000604s ]
+
+[ 2014-08-19T20:14:53+08:00 ] 127.0.0.1 /Public/menu
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.054700s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001470s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: menuTag E:\Source\PhpStorm\rbac\App\Runtime\Cache\10a6c7e591c767fd76726ec0dae6d8fa.php 第 22 行.
+NOTIC: [8] Undefined variable: menuTag E:\Source\PhpStorm\rbac\App\Runtime\Cache\10a6c7e591c767fd76726ec0dae6d8fa.php 第 22 行.
+NOTIC: [8] Undefined variable: menuTag E:\Source\PhpStorm\rbac\App\Runtime\Cache\10a6c7e591c767fd76726ec0dae6d8fa.php 第 22 行.
+NOTIC: [8] Undefined variable: menuTag E:\Source\PhpStorm\rbac\App\Runtime\Cache\10a6c7e591c767fd76726ec0dae6d8fa.php 第 22 行.
+NOTIC: [8] Undefined variable: menuTag E:\Source\PhpStorm\rbac\App\Runtime\Cache\10a6c7e591c767fd76726ec0dae6d8fa.php 第 22 行.
+NOTIC: [8] Undefined variable: menuTag E:\Source\PhpStorm\rbac\App\Runtime\Cache\10a6c7e591c767fd76726ec0dae6d8fa.php 第 22 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.056287s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013844s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.070242s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.070787s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.071275s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.071691s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002195s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.072550s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000708s ]
+
+[ 2014-08-19T20:14:53+08:00 ] 127.0.0.1 /Public/drag
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.076847s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001572s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.078525s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007981s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.086599s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.087210s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.087711s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.088102s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002664s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.089594s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001236s ]
+
+[ 2014-08-19T20:14:53+08:00 ] 127.0.0.1 /Public/footer
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.117555s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001443s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.119195s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010536s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.129805s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.130327s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.130826s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.131217s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002334s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.132435s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001373s ]
+
+[ 2014-08-19T20:14:53+08:00 ] ERR: (ThinkException) 非法操作:Images
+[ 2014-08-19T20:14:53+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-19T20:14:56+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-19T20:14:57+08:00 ] 127.0.0.1 /Index/index
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.008096s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001319s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.009674s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008887s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.018582s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.018986s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.019416s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.019794s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001798s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.020521s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000592s ]
+
+[ 2014-08-19T20:14:57+08:00 ] 127.0.0.1 /Public/top
+SQL: SHOW COLUMNS FROM `think_group` [ RunTime:0.007698s ]
+SQL: SELECT `id`,`title` FROM `think_group` WHERE status=1  [ RunTime:0.000334s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.023534s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001089s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.024860s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012856s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.037792s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.038422s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.039042s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.039617s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002548s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.040494s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000635s ]
+
+[ 2014-08-19T20:14:57+08:00 ] 127.0.0.1 /Public/menu
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.049200s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001059s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: menuTag E:\Source\PhpStorm\rbac\App\Runtime\Cache\10a6c7e591c767fd76726ec0dae6d8fa.php 第 22 行.
+NOTIC: [8] Undefined variable: menuTag E:\Source\PhpStorm\rbac\App\Runtime\Cache\10a6c7e591c767fd76726ec0dae6d8fa.php 第 22 行.
+NOTIC: [8] Undefined variable: menuTag E:\Source\PhpStorm\rbac\App\Runtime\Cache\10a6c7e591c767fd76726ec0dae6d8fa.php 第 22 行.
+NOTIC: [8] Undefined variable: menuTag E:\Source\PhpStorm\rbac\App\Runtime\Cache\10a6c7e591c767fd76726ec0dae6d8fa.php 第 22 行.
+NOTIC: [8] Undefined variable: menuTag E:\Source\PhpStorm\rbac\App\Runtime\Cache\10a6c7e591c767fd76726ec0dae6d8fa.php 第 22 行.
+NOTIC: [8] Undefined variable: menuTag E:\Source\PhpStorm\rbac\App\Runtime\Cache\10a6c7e591c767fd76726ec0dae6d8fa.php 第 22 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.050402s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013662s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.064122s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.064679s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.065461s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.065924s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002428s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.066689s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000660s ]
+
+[ 2014-08-19T20:14:57+08:00 ] 127.0.0.1 /Public/drag
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.072140s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000544s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.072807s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006957s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.079837s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.080386s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.081014s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.081468s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002274s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.082258s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000692s ]
+
+[ 2014-08-19T20:14:57+08:00 ] 127.0.0.1 /Public/footer
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.084911s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000723s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.085711s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010878s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.096666s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.097103s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.097666s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.098118s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002134s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.099112s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000908s ]
+
+[ 2014-08-19T20:14:57+08:00 ] ERR: (ThinkException) 非法操作:Images
+[ 2014-08-19T20:14:57+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-19T20:16:50+08:00 ] 127.0.0.1 /Public/menu/tag/2/title/%E5%BA%94%E7%94%A8%E4%B8%AD%E5%BF%83
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.003260s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000775s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.004236s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014543s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.018816s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.019270s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.019727s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.020116s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001907s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.020859s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000588s ]
+
+[ 2014-08-19T20:16:50+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-19T20:16:50+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-19T20:16:52+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-19T20:16:53+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-19T20:16:55+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-19T20:16:56+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-19T20:49:25+08:00 ] ERR: (ThinkException) 非法操作:Js
+[ 2014-08-19T20:49:25+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-19T20:51:18+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-19T20:58:51+08:00 ] 127.0.0.1 /Public/menu/title/%E5%90%8E%E5%8F%B0%E9%A6%96%E9%A1%B5
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.026862s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000907s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: menuTag E:\Source\PhpStorm\rbac\App\Runtime\Cache\10a6c7e591c767fd76726ec0dae6d8fa.php 第 22 行.
+NOTIC: [8] Undefined variable: menuTag E:\Source\PhpStorm\rbac\App\Runtime\Cache\10a6c7e591c767fd76726ec0dae6d8fa.php 第 22 行.
+NOTIC: [8] Undefined variable: menuTag E:\Source\PhpStorm\rbac\App\Runtime\Cache\10a6c7e591c767fd76726ec0dae6d8fa.php 第 22 行.
+NOTIC: [8] Undefined variable: menuTag E:\Source\PhpStorm\rbac\App\Runtime\Cache\10a6c7e591c767fd76726ec0dae6d8fa.php 第 22 行.
+NOTIC: [8] Undefined variable: menuTag E:\Source\PhpStorm\rbac\App\Runtime\Cache\10a6c7e591c767fd76726ec0dae6d8fa.php 第 22 行.
+NOTIC: [8] Undefined variable: menuTag E:\Source\PhpStorm\rbac\App\Runtime\Cache\10a6c7e591c767fd76726ec0dae6d8fa.php 第 22 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.027824s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012972s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.040885s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.041631s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.042413s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.043041s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003013s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.044114s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000923s ]
+
+[ 2014-08-19T20:58:51+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-19T20:58:52+08:00 ] 127.0.0.1 /Public/menu/tag/2/title/%E5%BA%94%E7%94%A8%E4%B8%AD%E5%BF%83
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.002348s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000433s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.002878s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009085s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.012049s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.012446s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.012872s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.013236s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001770s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.013948s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000621s ]
+
+[ 2014-08-19T20:58:52+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-19T20:58:52+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-19T20:58:53+08:00 ] 127.0.0.1 /Public/menu/title/%E5%90%8E%E5%8F%B0%E9%A6%96%E9%A1%B5
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.019182s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000676s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: menuTag E:\Source\PhpStorm\rbac\App\Runtime\Cache\10a6c7e591c767fd76726ec0dae6d8fa.php 第 22 行.
+NOTIC: [8] Undefined variable: menuTag E:\Source\PhpStorm\rbac\App\Runtime\Cache\10a6c7e591c767fd76726ec0dae6d8fa.php 第 22 行.
+NOTIC: [8] Undefined variable: menuTag E:\Source\PhpStorm\rbac\App\Runtime\Cache\10a6c7e591c767fd76726ec0dae6d8fa.php 第 22 行.
+NOTIC: [8] Undefined variable: menuTag E:\Source\PhpStorm\rbac\App\Runtime\Cache\10a6c7e591c767fd76726ec0dae6d8fa.php 第 22 行.
+NOTIC: [8] Undefined variable: menuTag E:\Source\PhpStorm\rbac\App\Runtime\Cache\10a6c7e591c767fd76726ec0dae6d8fa.php 第 22 行.
+NOTIC: [8] Undefined variable: menuTag E:\Source\PhpStorm\rbac\App\Runtime\Cache\10a6c7e591c767fd76726ec0dae6d8fa.php 第 22 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.020043s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015304s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.035414s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.035918s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.036500s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.036936s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002213s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.037782s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000723s ]
+
+[ 2014-08-19T20:58:53+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-19T21:06:10+08:00 ] 127.0.0.1 /Public/menu/tag/2/title/%E5%BA%94%E7%94%A8%E4%B8%AD%E5%BF%83
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.002732s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000686s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.003520s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009778s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.013398s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.013871s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.014352s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.014750s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002012s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.015542s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000700s ]
+
+[ 2014-08-19T21:06:10+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-19T21:06:10+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-19T21:06:11+08:00 ] 127.0.0.1 /Public/menu/title/%E5%90%8E%E5%8F%B0%E9%A6%96%E9%A1%B5
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.002914s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000555s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: menuTag E:\Source\PhpStorm\rbac\App\Runtime\Cache\10a6c7e591c767fd76726ec0dae6d8fa.php 第 22 行.
+NOTIC: [8] Undefined variable: menuTag E:\Source\PhpStorm\rbac\App\Runtime\Cache\10a6c7e591c767fd76726ec0dae6d8fa.php 第 22 行.
+NOTIC: [8] Undefined variable: menuTag E:\Source\PhpStorm\rbac\App\Runtime\Cache\10a6c7e591c767fd76726ec0dae6d8fa.php 第 22 行.
+NOTIC: [8] Undefined variable: menuTag E:\Source\PhpStorm\rbac\App\Runtime\Cache\10a6c7e591c767fd76726ec0dae6d8fa.php 第 22 行.
+NOTIC: [8] Undefined variable: menuTag E:\Source\PhpStorm\rbac\App\Runtime\Cache\10a6c7e591c767fd76726ec0dae6d8fa.php 第 22 行.
+NOTIC: [8] Undefined variable: menuTag E:\Source\PhpStorm\rbac\App\Runtime\Cache\10a6c7e591c767fd76726ec0dae6d8fa.php 第 22 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.003570s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009744s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.013394s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.013776s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.014253s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.014611s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001875s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.015406s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000590s ]
+
+[ 2014-08-19T21:06:12+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-19T21:06:12+08:00 ] 127.0.0.1 /Public/menu/tag/2/title/%E5%BA%94%E7%94%A8%E4%B8%AD%E5%BF%83
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.002301s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000496s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.002896s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009564s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.012549s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.012962s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.013407s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.013772s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001837s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.014523s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000593s ]
+
+[ 2014-08-19T21:06:12+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-19T21:06:12+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-19T21:06:15+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-19T21:24:27+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-19T21:24:35+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-19T21:24:41+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-19T21:24:46+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-19T21:24:59+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-19T21:25:06+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-19T21:25:07+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-19T21:25:10+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-19T21:25:14+08:00 ] ERR: (ThinkException) Unknown column 'Js.Util' in 'where clause'
+ [ SQL语句 ] : select b.id,b.title,b.name from think_access as a ,think_node as b where a.node_id=b.id and  b.pid=0 and a.role_id=Js.Util 
+[ 2014-08-19T21:25:14+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-19T21:25:21+08:00 ] ERR: (ThinkException) Unknown column 'Js.Util' in 'where clause'
+ [ SQL语句 ] : select b.id,b.title,b.name from think_access as a ,think_node as b where a.node_id=b.id and  b.pid=0 and a.role_id=Js.Util 
+[ 2014-08-19T21:25:21+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-19T21:25:22+08:00 ] ERR: (ThinkException) Unknown column 'Js.Util' in 'where clause'
+ [ SQL语句 ] : select b.id,b.title,b.name from think_access as a ,think_node as b where a.node_id=b.id and  b.pid=0 and a.role_id=Js.Util 
+[ 2014-08-19T21:25:22+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-19T21:25:25+08:00 ] ERR: (ThinkException) Unknown column 'Js.Util' in 'where clause'
+ [ SQL语句 ] : select b.id,b.title,b.name from think_access as a ,think_node as b where a.node_id=b.id and  b.pid=0 and a.role_id=Js.Util 
+[ 2014-08-19T21:25:25+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-19T21:25:27+08:00 ] ERR: (ThinkException) Unknown column 'Js.Util' in 'where clause'
+ [ SQL语句 ] : select b.id,b.title,b.name from think_access as a ,think_node as b where a.node_id=b.id and  b.pid=0 and a.role_id=Js.Util 
+[ 2014-08-19T21:25:27+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-19T21:25:28+08:00 ] ERR: (ThinkException) Unknown column 'Js.Util' in 'where clause'
+ [ SQL语句 ] : select b.id,b.title,b.name from think_access as a ,think_node as b where a.node_id=b.id and  b.pid=0 and a.role_id=Js.Util 
+[ 2014-08-19T21:25:28+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-19T21:25:30+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-19T21:25:30+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-19T21:25:33+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-19T21:25:36+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-19T21:25:37+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-19T21:25:39+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-19T21:25:42+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-19T21:25:46+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-19T21:25:48+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-19T21:25:49+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-19T21:25:51+08:00 ] ERR: (ThinkException) Unknown column 'Js.Util' in 'where clause'
+ [ SQL语句 ] : select b.id,b.title,b.name from think_access as a ,think_node as b where a.node_id=b.id and  b.pid=0 and a.role_id=Js.Util 
+[ 2014-08-19T21:25:51+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-19T21:25:56+08:00 ] ERR: (ThinkException) Unknown column 'Js.Util' in 'where clause'
+ [ SQL语句 ] : select b.id,b.title,b.name from think_access as a ,think_node as b where a.node_id=b.id and  b.pid=0 and a.role_id=Js.Util 
+[ 2014-08-19T21:25:56+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-19T21:25:58+08:00 ] ERR: (ThinkException) Unknown column 'Js.Util' in 'where clause'
+ [ SQL语句 ] : select b.id,b.title,b.name from think_access as a ,think_node as b where a.node_id=b.id and  b.pid=0 and a.role_id=Js.Util 
+[ 2014-08-19T21:25:58+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-19T21:26:00+08:00 ] ERR: (ThinkException) Unknown column 'Js.Util' in 'where clause'
+ [ SQL语句 ] : select b.id,b.title,b.name from think_access as a ,think_node as b where a.node_id=b.id and  b.pid=0 and a.role_id=Js.Util 
+[ 2014-08-19T21:26:00+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-19T21:26:13+08:00 ] ERR: (ThinkException) Unknown column 'Js.Util' in 'where clause'
+ [ SQL语句 ] : select b.id,b.title,b.name from think_access as a ,think_node as b where a.node_id=b.id and  b.pid=0 and a.role_id=Js.Util 
+[ 2014-08-19T21:26:13+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-19T21:26:15+08:00 ] ERR: (ThinkException) Unknown column 'Js.Util' in 'where clause'
+ [ SQL语句 ] : select b.id,b.title,b.name from think_access as a ,think_node as b where a.node_id=b.id and  b.pid=0 and a.role_id=Js.Util 
+[ 2014-08-19T21:26:15+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-19T21:26:20+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-19T21:26:23+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-19T21:26:25+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-19T21:26:27+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-19T21:26:33+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-19T21:26:35+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-19T21:27:47+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-19T21:27:50+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-19T21:27:56+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-19T21:27:59+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-19T21:28:04+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-19T21:28:07+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-19T21:28:15+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-19T21:30:28+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2014-08-19T21:30:54+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
